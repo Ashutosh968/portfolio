@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  ccfd,
 } from "../assets";
 
 export const navLinks = [
@@ -251,7 +252,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: 'src/assets/ccfd.png',
+    image: ccfd,
     source_code_link: "https://github.com/Ashutosh968/coffee-live/blob/master/credit_card_fraud_detection.ipynb",
   },
     {
