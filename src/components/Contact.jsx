@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+require('dotenv').config();
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -48,7 +50,7 @@ const Contact = () => {
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
+          
           setForm({
             name: "",
             email: "",
